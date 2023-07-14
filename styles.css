@@ -1,0 +1,51 @@
+body {
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.card {
+    width: 500px;
+    margin: 0px auto;
+
+    background: #c1121f;
+    border-bottom: 6px ridge #669bbc;
+    border-radius: 5px;
+    color: #fdf0d5;
+
+    
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.shadow {
+    box-shadow: 10px 5px 5px #780000;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.dot-border {
+    text-align: center;
+}
+
+.hvr-shrink {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
